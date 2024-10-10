@@ -1,0 +1,51 @@
+body {
+    background-color: #ffe6f2;
+    color: #c71585;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+#contador {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.carrossel {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px; /* Altura máxima para o carrossel */
+}
+
+.fotos {
+    display: flex;
+    transition: transform 0.5s ease;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+}
+
+.fotos img {
+    width: 300px; /* Largura fixa das imagens */
+    height: auto; /* Mantém a proporção */
+    border-radius: 10px;
+    display: none; /* Inicialmente, todas as imagens estão ocultas */
+}
+
+.mensagem h2 {
+    font-size: 2em;
+    color: #ff1493;
+    margin-top: 20px; /* Um pouco mais de espaço acima da mensagem */
+}
